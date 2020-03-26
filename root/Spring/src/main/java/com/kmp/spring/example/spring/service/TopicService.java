@@ -8,7 +8,6 @@ import java.util.Arrays;
 import java.util.List;
 
 @Service
-@EnableCircuit
 public class TopicService {
     private List<Topic> topics = new ArrayList<>(Arrays.asList(new Topic("Spring", "Spring F", "Srping Desc"),
             new Topic("Java", "Java F", "Java Desc"),
